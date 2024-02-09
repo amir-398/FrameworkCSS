@@ -13,5 +13,16 @@
   position: relative;
   box-shadow: -6px 9px 0px 0px #000;
 }
+.birthdayEllipseContainer .ellipse img {
+  animation: 6s infinite linear birthdayAnimation;
+}
+@keyframes birthdayAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 /*# sourceMappingURL=birthdayEllipse.css.map */
