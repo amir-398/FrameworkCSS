@@ -1,8 +1,20 @@
-# React + Vite
+# VOD Movies Management API with Observer Pattern
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Static Badge](https://img.shields.io/badge/Group%3A__Amir_-%23621a55%20)
+![Static Badge](https://img.shields.io/badge/version-1.0.0-blue)
+![Static Badge](https://img.shields.io/badge/docs_api-swagger-orange?logo=swagger)
 
-Currently, two official plugins are available:
+## Introduction 📄​
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Site pour les anniversaire
+
+## ⚡​ Installation ​⚡​
+
+To install and run this project locally, follow these steps:
+
+```bash
+git clone https://github.com/amir-398/FrameworkCSS.git
+cd DESIGN-PATTERN
+npm install
+npm run dev
+```

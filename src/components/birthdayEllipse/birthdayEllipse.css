@@ -14,7 +14,7 @@
   box-shadow: -6px 9px 0px 0px #000;
 }
 .birthdayEllipseContainer .ellipse img {
-  animation: 6s infinite linear birthdayAnimation;
+  animation: 10s infinite linear birthdayAnimation;
 }
 @keyframes birthdayAnimation {
   0% {
