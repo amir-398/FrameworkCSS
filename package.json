@@ -8,9 +8,13 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "npm-run-all --parallel header card ",
+    "start": "npm-run-all --parallel header card leftComponent rightComponent home birthdayEllipse ",
+    "home": "sass --watch ./src/pages/home.scss ./src/pages/home.css",
     "header": "sass --watch ./src/components/header/header.scss ./src/components/header/header.css",
-    "card": "sass --watch ./src/components/cardComponent/card.scss ./src/components/cardComponent/card.css"
+    "card": "sass --watch ./src/components/cardComponent/card.scss ./src/components/cardComponent/card.css",
+    "leftComponent": "sass --watch ./src/components/leftComponent/leftComponent.scss ./src/components/leftComponent/leftComponent.css",
+    "rightComponent": "sass --watch ./src/components/rightComponent/rightComponent.scss ./src/components/rightComponent/rightComponent.css",
+    "birthdayEllipse": "sass --watch ./src/components/birthdayEllipse/birthdayEllipse.scss ./src/components/birthdayEllipse/birthdayEllipse.css"
   },
   "dependencies": {
     "react": "^18.2.0",

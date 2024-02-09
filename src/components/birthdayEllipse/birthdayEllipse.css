@@ -1,0 +1,17 @@
+.birthdayEllipseContainer {
+  height: 80%;
+  padding-top: 5rem;
+}
+.birthdayEllipseContainer .ellipse {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 403px;
+  height: 403px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: -6px 9px 0px 0px #000;
+}
+
+/*# sourceMappingURL=birthdayEllipse.css.map */
