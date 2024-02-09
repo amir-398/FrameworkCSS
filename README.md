@@ -2,7 +2,6 @@
 
 ![Static Badge](https://img.shields.io/badge/Group%3A__Amir_-%23621a55%20)
 ![Static Badge](https://img.shields.io/badge/version-1.0.0-blue)
-![Static Badge](https://img.shields.io/badge/docs_api-swagger-orange?logo=swagger)
 
 ## Introduction 📄​
 
