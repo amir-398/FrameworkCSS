@@ -1,0 +1,11 @@
+.leftContainer {
+  width: 50%;
+  height: 100%;
+  background-color: #df80ac;
+  border-right: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=leftComponent.css.map */

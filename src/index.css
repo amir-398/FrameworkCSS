@@ -1,0 +1,18 @@
+@font-face {
+  font-family: bison;
+  src: url("./assets/fonts/Bison-Bold.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  font-family: bison;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: bison;
+  background-color: #e1e1e3;
+}
+a {
+  text-decoration: none;
+}
