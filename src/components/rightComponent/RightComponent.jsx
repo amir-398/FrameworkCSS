@@ -1,5 +1,6 @@
 import heart from "../../assets/img/heart.png";
 import Card from "../cardComponent/Card";
+import LoadingBarComponent from "../loadingBarComponent/LoadingBarComponent";
 import "./rightComponent.css";
 export default function RightComponent() {
   const card1Text =
@@ -24,6 +25,7 @@ export default function RightComponent() {
           height: "364.88px",
         }}
       />
+      <LoadingBarComponent />
     </div>
   );
 }

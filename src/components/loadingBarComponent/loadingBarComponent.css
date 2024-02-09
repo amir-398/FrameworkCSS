@@ -1,0 +1,17 @@
+.loadingBarContainer .bar {
+  width: 352px;
+  height: 13px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: -5px 4px 0px 2px #000000;
+}
+.loadingBarContainer .bar .loadingBar {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  background-color: #df80ac;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=loadingBarComponent.css.map */
