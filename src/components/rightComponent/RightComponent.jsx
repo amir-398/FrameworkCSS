@@ -1,5 +1,6 @@
 import heart from "../../assets/img/heart.png";
 import Card from "../cardComponent/Card";
+import LoadingBarComponent from "../loadingBarComponent/LoadingBarComponent";
 import "./rightComponent.css";
 export default function RightComponent() {
   const card1Text =
@@ -16,14 +17,17 @@ export default function RightComponent() {
       <Card
         image={heart}
         imageStyle={{
-          width: "100%",
-          height: "100%",
+          width: "40%",
           borderRadius: "10px",
         }}
         cardStyle={{
           height: "364.88px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       />
+      <LoadingBarComponent />
     </div>
   );
 }
