@@ -1,6 +1,6 @@
 # Site anniversaire
 
-![Static Badge](https://img.shields.io/badge/Group%3A__Amir_-%23621a55%20)
+![Static Badge](https://img.shields.io/badge/Group%3AAmir_-%23621a55%20)
 ![Static Badge](https://img.shields.io/badge/version-1.0.0-blue)
 
 ## Introduction 📄​
