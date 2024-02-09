@@ -6,7 +6,6 @@ export default function Header() {
     fontWeight: 300,
     lineHeight: "48px",
     letterSpacing: "0.045em",
-    textAlign: "left",
   };
   return (
     <div className="header">

@@ -8,8 +8,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "npm-run-all --parallel header ",
-    "header": "sass --watch ./src/components/header/header.scss ./src/components/header/header.css"
+    "start": "npm-run-all --parallel header card ",
+    "header": "sass --watch ./src/components/header/header.scss ./src/components/header/header.css",
+    "card": "sass --watch ./src/components/cardComponent/card.scss ./src/components/cardComponent/card.css"
   },
   "dependencies": {
     "react": "^18.2.0",

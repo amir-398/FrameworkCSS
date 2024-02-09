@@ -1,0 +1,17 @@
+@import "../../constants/COLORS.scss";
+.card {
+  width: 675px;
+  height: 208px;
+  border-radius: 14px;
+  border: 2px solid black;
+  position: relative;
+  background-color: #fff;
+  .cardBackground {
+    @extend .card;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    background-color: $primaryColor;
+    z-index: -1;
+  }
+}

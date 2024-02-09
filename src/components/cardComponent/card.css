@@ -1,0 +1,17 @@
+.card, .card .cardBackground {
+  width: 675px;
+  height: 208px;
+  border-radius: 14px;
+  border: 2px solid black;
+  position: relative;
+  background-color: #fff;
+}
+.card .cardBackground {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  background-color: #df80ac;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=card.css.map */
