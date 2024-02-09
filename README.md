@@ -14,7 +14,6 @@ To install and run this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/amir-398/FrameworkCSS.git
-cd DESIGN-PATTERN
 npm install
 npm run dev
 ```
