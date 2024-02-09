@@ -17,12 +17,14 @@ export default function RightComponent() {
       <Card
         image={heart}
         imageStyle={{
-          width: "100%",
-          height: "100%",
+          width: "40%",
           borderRadius: "10px",
         }}
         cardStyle={{
           height: "364.88px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       />
       <LoadingBarComponent />

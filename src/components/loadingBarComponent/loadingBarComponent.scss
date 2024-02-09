@@ -1,12 +1,15 @@
 @import "../../constants/COLORS";
 .loadingBarContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   .bar {
     width: 352px;
     height: 13px;
     border: 1px solid #000;
     border-radius: 20px;
     position: relative;
-    box-shadow: -5px 4px 0px 2px #000000;
+    box-shadow: -2px 4px 0px 2px #000000;
     .loadingBar {
       position: absolute;
       height: 100%;
